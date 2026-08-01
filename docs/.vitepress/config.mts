@@ -7,12 +7,12 @@ import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 import { GitChangelog, GitChangelogMarkdownSection, } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { SponsorPlugin } from 'vitepress-plugin-sponsor'
 
-const baseRepo = '/weekly/'
+const baseRepo = '/python-tutorial/'
 const baseUrl = 'https://cunyu1943.github.io'
 const RSS: RSSOptions = {
   title: '村雨遥',
   baseUrl,
-  copyright: 'Copyright © ' + new Date().getFullYear() + '<a href="https://github.com/cunyu1943">村雨遥</a>',
+  copyright: 'Copyright © ' + new Date().getFullYear() + ' <a href="https://github.com/cunyu1943">村雨遥</a>',
 }
 
 // https://vitepress.dev/reference/site-config

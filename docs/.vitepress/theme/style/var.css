@@ -2,7 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap'); */
 /* @import url('https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-wen-kai-gb-screen-r@1.0.6/font.min.css'); */
 /* 引入 JetBrains Mono 英文字体（jsDelivr CDN，国内访问更快） */
-/* @import url('https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.8/400.css'); */
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.8/400.css');
 /* @import url('https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.8/700.css'); */ 
 
 :root {
