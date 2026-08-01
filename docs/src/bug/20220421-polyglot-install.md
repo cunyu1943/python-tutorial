@@ -33,7 +33,7 @@ pip install polyglot
 
 ## 二、解决方法
 
-### 1. 安装 pyicu
+### 2.1 安装 pyicu
 
 在网上搜到的解决方案，有的可以通过直接安装 `pyicu` 即可解决，安装命令如下：
 
@@ -43,7 +43,7 @@ pip install pyicu
 
 我尝试过这个方法，最终没能解决我的问题，但还是在这里贴出来，方便大家也尝试一下，能解决最好不过，不能的话也排除了这种方法。
 
-### 2. 安装依赖包
+### 2.2 安装依赖包
 
 到 [Python Extension Packages for Windows - Christoph Gohlke (uci.edu)](https://www.lfd.uci.edu/~gohlke/pythonlibs/) 去下载所需要的依赖包：
 
