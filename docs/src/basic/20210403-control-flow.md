@@ -34,7 +34,7 @@ if age < 18:
 else:
 	print("已成年")
 ```
-![](assets/70.webp)
+
 ### 多次判断
 
 - 形式
@@ -62,7 +62,7 @@ elif age >= 6:
 else:
     print('kid')
 ```
-![](assets/70-20230927211958121.webp)
+
 
 注意，`if` 语句是从上往下判断的；
 
@@ -79,7 +79,7 @@ while count > 0:
 	count -= 2
 print("循环结束")
 ```
-![](assets/70-20230927211958117.webp)
+
 ### for...in 循环
 - 例子
 
@@ -105,7 +105,7 @@ while num <= 100:
 	num += 2
 print("结束")
 ```
-![](assets/70-20230927211958111.webp)
+
 
 - continue
 
@@ -119,7 +119,7 @@ while num < 20:
         continue 
     print(num)
 ```
-![](assets/70-20230927211958101.webp)
+
 
 ## 总结
 

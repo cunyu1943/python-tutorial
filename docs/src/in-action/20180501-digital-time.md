@@ -22,16 +22,18 @@
 import time
 import turtle as tt
 
+
 # 绘制间隔
 def drawGap():
     tt.penup()
     tt.fd(5)
 
+
 # 绘制单段数码管
 def drawLine(draw):
     drawGap()
 
-    if(draw):
+    if (draw):
         tt.pendown()
     else:
         tt.penup()
@@ -40,12 +42,13 @@ def drawLine(draw):
     drawGap()
     tt.right(90)
 
+
 # 绘制当前时间
 def drawDate(date):
     tt.pencolor("red")
     for i in date:
         if i == '+':
-            tt.write("年", font = ("黑体", 25, "normal"))
+            tt.write("年", font=("黑体", 25, "normal"))
             tt.pencolor("green")
             tt.fd(50)
         elif i == '-':
@@ -70,6 +73,7 @@ def drawDate(date):
         else:
             drawDigit(eval(i))
 
+
 # 绘制数码管
 def drawDigit(cur_time):
     if cur_time in [2, 3, 4, 5, 6, 8, 9]:
@@ -93,7 +97,7 @@ def drawDigit(cur_time):
         drawLine(False)
 
     tt.left(90)
-    
+
     if cur_time in [0, 4, 5, 6, 8, 9]:
         drawLine(True)
     else:
@@ -113,6 +117,7 @@ def drawDigit(cur_time):
     tt.penup()
     tt.fd(20)
 
+
 # 主函数
 def main():
     tt.setup(1600, 300, 200, 200)
@@ -123,11 +128,11 @@ def main():
     tt.hideturtle()
     tt.done()
 
+
 if __name__ == "__main__":
     main()
 
 ```
-
 
 
 
